@@ -243,5 +243,5 @@
     >
     >   ![image-20180607152229016](http://getme.guitoubing.top/image-20180607152229016.png)
 
-    
+  - 戳这里下载[Asp.net Core开发实战.pdf](http://getme.guitoubing.top/ASP.NET%20Core%E8%B7%A8%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E6%88%98%20,%E5%BC%A0%E5%89%91%E6%A1%A5%20,2017.04%20,Pg319_14181929.pdf)
 
