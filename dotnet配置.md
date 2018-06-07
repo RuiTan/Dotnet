@@ -38,6 +38,16 @@
   > </ItemGroup>
   > ```
 
+## Model部分
+
+- 连接数据库创建实体：
+
+  在vscode终端中输入以下命令
+
+  ```
+  dotnet ef dbcontext scaffold "server=localhost;userid=user;pwd=password;port=3306;database=university;sslmode=none;" Pomelo.EntityFrameworkCore.MySql -o Models
+  ```
+
 - dotnet ef两个问题
 
   > 问题1：No executable found matching command "dotnet-ef"
@@ -52,16 +62,6 @@
   > 问题2：Version for package `Microsoft.EntityFrameworkCore.Tools.DotNet` could not be resolved.
   >
   > 原因：上述配置中Version版本与包引用中的版本不一致，修改上述添加代码的Version即可
-
-## Model部分
-
-- 连接数据库创建实体：
-
-  在vscode终端中输入以下命令
-
-  ```
-  dotnet ef dbcontext scaffold "server=localhost;userid=user;pwd=password;port=3306;database=university;sslmode=none;" Pomelo.EntityFrameworkCore.MySql -o Models
-  ```
 
   此时将会在Models文件夹下创建所有数据库表的实体，同时会创建一个universityContext.cs实体（university为我数据库名称，自行定义），用于对整个数据库的操作。**至此MVC已完成Model部分**。
 
