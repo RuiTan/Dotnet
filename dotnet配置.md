@@ -206,7 +206,7 @@
 
   - 解决方法：
 
-    > ![dotnet配置](/Users/tanrui/文件/Homework/c#/dotnet配置.png)
+    > ![dotnet配置](http://getme.guitoubing.top/dotnet%E9%85%8D%E7%BD%AE.png)
     >
     > 注意最下面的Tip：由于我们在Startup.cs中已经添加如下代码：
     >
