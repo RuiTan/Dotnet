@@ -25,6 +25,7 @@
 
   > ![image-20180607145123118](http://getme.guitoubing.top/image-20180607145223693.png)
 
+  > 添加包时以下代码将自动在dotnet.csproj中添加：
   > ```xml
   > <ItemGroup>
   >     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6"/>
