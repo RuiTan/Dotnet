@@ -1,0 +1,11 @@
+/Users/tanrui/文件/Homework/c#/dotnet/bin/Debug/netcoreapp2.0/dotnet.deps.json
+/Users/tanrui/文件/Homework/c#/dotnet/bin/Debug/netcoreapp2.0/dotnet.runtimeconfig.json
+/Users/tanrui/文件/Homework/c#/dotnet/bin/Debug/netcoreapp2.0/dotnet.runtimeconfig.dev.json
+/Users/tanrui/文件/Homework/c#/dotnet/bin/Debug/netcoreapp2.0/dotnet.dll
+/Users/tanrui/文件/Homework/c#/dotnet/bin/Debug/netcoreapp2.0/dotnet.pdb
+/Users/tanrui/文件/Homework/c#/dotnet/obj/Debug/netcoreapp2.0/dotnet.csprojResolveAssemblyReference.cache
+/Users/tanrui/文件/Homework/c#/dotnet/obj/Debug/netcoreapp2.0/dotnet.csproj.CoreCompileInputs.cache
+/Users/tanrui/文件/Homework/c#/dotnet/obj/Debug/netcoreapp2.0/dotnet.AssemblyInfoInputs.cache
+/Users/tanrui/文件/Homework/c#/dotnet/obj/Debug/netcoreapp2.0/dotnet.AssemblyInfo.cs
+/Users/tanrui/文件/Homework/c#/dotnet/obj/Debug/netcoreapp2.0/dotnet.dll
+/Users/tanrui/文件/Homework/c#/dotnet/obj/Debug/netcoreapp2.0/dotnet.pdb

@@ -1,0 +1,31 @@
+@{
+    ViewData["Title"] = "学生主页";
+}
+
+<!-- 此处这个model声明不能忘记 -->
+@model IEnumerable<dotnet.Student>
+
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>姓名</th>
+        <th>系</th>
+        <th>学分</th>
+    </tr>
+    @foreach (var item in Model){
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeptName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotCred)
+            </td>
+        </tr>
+    }
+</table>

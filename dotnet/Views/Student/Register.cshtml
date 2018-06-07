@@ -1,0 +1,33 @@
+@model dotnet.Student
+
+@{
+    ViewData["Title"] = "注册";
+}
+
+<form asp-controller="Student" asp-action="Register" method="POST">
+    <div class="form-group">
+        <label asp-for="Id" class="col-md-2 control-label">编号：</label>
+        <div class="col-md-10">
+            <input class="form-control" asp-for="Id"/>
+            <span asp-validation-for="Id" class="text-danger"></span>
+        </div>
+        <label asp-for="Name" class="col-md-2 control-label">名字：</label>
+        <div class="col-md-10">
+            <input class="form-control" asp-for="Name"/>
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <label asp-for="DeptName" class="col-md-2 control-label">系：</label>
+        <div class="col-md-10">
+            <input class="form-control" asp-for="DeptName"/>
+            <span asp-validation-for="DeptName" class="text-danger"></span>
+        </div>
+        <label asp-for="TotCred" class="col-md-2 control-label">学分：</label>
+        <div class="col-md-10">
+            <input class="form-control" asp-for="TotCred"/>
+            <span asp-validation-for="TotCred" class="text-danger"></span>
+        </div>
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="保存" class="btn btn-default"/>
+        </div>
+    </div>
+</form>
